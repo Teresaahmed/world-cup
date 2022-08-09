@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 60px;
+    color: aliceblue;
+   
+}
+p{
+    color: aliceblue;
+}
+.first{
+   background-color: black;
+
+    height:30%;
+    width: 80%;
+    text-align:left;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+}
+.one{
+    display: flex;
+}
+.first-img{
+    height: 100%;
+    margin-left: 10px;
+
+}
+.btn{
+    border: 1px solid red;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+ /* .......middle...... */
+.middle{
+    display: flex;
+}
+
+.second{
+    
+    border: 1px solid black;
+    height: 200px;
+    background-color: black;
+    width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: ;
+}
+.inthe{
+    text-align: center;
+    margin-top: 15px;
+    width:90%;
+    padding-left: 10px;
+
+}
+ 
+
+.two{
+ display: grid;
+ grid-template-columns:repeat(3,1fr);
+ grid-column-gap: px;
+ margin-left: 5px;
+}
+.player, img{
+    height:150px;
+    grid-column-gap: px;
+}
+.up ,.bl{
+    padding: 5px;
+    margin-bottom: 15px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+}
+.bl{
+    background-color: red;
+}
+.player{
+    margin-bottom: 150px;
+}
+.p2{
+    color:black;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+ .goal{
+    text-align: center;
+    color: azure;
+    margin-bottom: 40px;
+}
+hr{
+    height: 1px;
+    width: 80%;
+    background-color: rgba(240, 248, 255, 0.178);
+    margin-bottom: 20px;
+    background-color: rgba(250, 235, 215, 0.329);
+}
+h7{
+    color: rgba(250, 235, 215, 0.589);
+    margin:10px;
+    font-size: 10px;
+}
+.end{
+    text-align: center;
+}
+@media only screen and(max-width:688px){
+    .two{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: brown;
+    }
+}
